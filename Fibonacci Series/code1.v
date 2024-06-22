@@ -36,3 +36,15 @@ module tb;
     #200 $finish;
   end
 endmodule
+
+
+/*OUTPUT
+# KERNEL: @ 0,, prev_value=0, current_value=1
+# KERNEL: @ 5,, prev_value=1, current_value=1
+# KERNEL: @ 15,, prev_value=1, current_value=2
+# KERNEL: @ 25,, prev_value=2, current_value=3
+# KERNEL: @ 35,, prev_value=3, current_value=5
+# KERNEL: @ 45,, prev_value=5, current_value=8
+# KERNEL: @ 55,, prev_value=8, current_value=13
+# KERNEL: @ 65,, prev_value=13, current_value=21
+# KERNEL: @ 75,, prev_value=21, current_value=34*/
